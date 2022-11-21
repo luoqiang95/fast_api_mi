@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',path='/css/iconfont.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',path='/css/style.css') }}"/>
+    <script src="{{ url_for('static',path='/json/jquery-1.11.3.js') }}" type="text/javascript"></script>
+    <title>登录界面</title>
+</head>
+
+<body>
+<div id="bigBox">
+    <h1>LOGIN</h1>
+    <div class="inputBox">
+        <div class="inputText">
+            <span class="iconfont icon-nickname"></span>
+            <input type="text" placeholder="Username"/>
+        </div>
+        <div class="inputText">
+            <span class="iconfont icon-visible"></span>
+            <input type="password" placeholder="Password"/>
+        </div>
+    </div>
+    <input class="loginButton" type="button" value="Login" onclick="login()"/>
+</div>
+<script src="{{ url_for('static',path='/json/login.js') }}" type="text/javascript"></script>
+</body>
+
+</html>
+

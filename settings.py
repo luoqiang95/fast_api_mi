@@ -1,0 +1,3 @@
+SECRET_KEY = "asdga"
+ALGORITHM = "HS256"
+
